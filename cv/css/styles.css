@@ -1,0 +1,133 @@
+body{
+  font-family: Helvetica Neue;
+  background: url("../images/woman3.jpg") top no-repeat;
+  background-size: contain;
+  background-color: #edeeef;
+  margin: 0 auto;
+  color: #555555;
+}
+
+header{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: .5%;
+}
+
+.header_title{
+  margin: 0 auto;
+  padding-top: 98px;
+  margin-bottom: .7%;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.header__subtitle{
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: medium;
+  color: #4A90E2;
+  margin-bottom: 3.5%;
+}
+
+.header__list{
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+  padding-bottom: 52px;
+}
+
+.header__list > li > a{
+  text-decoration: none;
+  color: #555555;
+}
+
+.main-container{
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.container-1{
+  margin: 0 auto;
+  margin-top: 45%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.container-2{
+  margin: 0 auto;
+  padding-left: 2%;
+  overflow: hidden;
+}
+
+.section{
+  border-top: 5px solid #4A90E2;
+  background-color: #FFFFFF;
+  padding: 2.5%;
+  margin-bottom: 20px;
+  width: 43%;
+  border-radius: .7%;
+  max-width: 100%;
+}
+
+header, .section{
+  box-shadow: 0 1px 10px #555555;
+}
+
+.section>h1{
+  margin: 0 auto;
+  font-size: 1.7em;
+  padding-left: 40px;
+  margin-top: 3.5px;
+}
+
+.section>h1{ 
+  font-weight: 300;
+}
+
+.header_title, .section>h1{ 
+  color: #000000;
+}
+
+.section__margin{
+  margin-right: 20px;
+}
+
+.section__p{
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.left{
+  float: left;
+}
+
+
+.header__img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid rgba(135, 135, 135, 0.2);
+}
+
+.section__img{
+  position: absolute;
+}
+
+.img-container{
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 78%;
+}
+
+@media (max-width: 640px) {
+
+  .section{
+  clear: both;
+  width: 93%;
+  }
+
+}
